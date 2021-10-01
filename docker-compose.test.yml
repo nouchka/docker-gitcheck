@@ -1,0 +1,4 @@
+sut:
+  build: .
+  entrypoint: gitcheck
+  command: version
