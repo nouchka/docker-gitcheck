@@ -5,7 +5,7 @@ LABEL version="latest"
 
 # Install requirements installation
 RUN apk add --update git && rm -rf /var/cache/apk/* && \
-	pip install git+git://github.com/yucer/gitcheck.git@fix_setup_py
+	pip install git+git://github.com/mataneli94/gitcheck.git@master
 
 VOLUME /files
 WORKDIR /files
